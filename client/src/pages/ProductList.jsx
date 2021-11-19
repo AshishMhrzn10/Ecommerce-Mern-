@@ -5,9 +5,7 @@ import Navbar from '../components/Navbar';
 import NewsLetter from '../components/NewsLetter';
 import Products from '../components/Products';
 
-const Container = styled.div`
-
-`;
+const Container = styled.div``;
 
 const Title = styled.h1`
     margin: 20px;
