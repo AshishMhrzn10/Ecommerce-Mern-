@@ -4,6 +4,7 @@ import Product from "./pages/Product";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import Success from "./pages/Success";
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 const App = () => {
@@ -12,11 +13,12 @@ const App = () => {
     <Router>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/products/:category" element={<ProductList />} />
-        <Route exact path="/product/:id" element={<Product />} />
-        <Route exact path="/cart" element={<Cart />} />
-        <Route exact path="/login" element={user ? <Navigate to="/" /> : <Login />} />
-        <Route exact path="/register" element={user ? <Navigate to="/" /> : <Register />} />
+        <Route path="/products/:category" element={<ProductList />} />
+        <Route path="/product/:id" element={<Product />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/success" element={<Success />} />
+        <Route path="/login" element={user ? <Navigate to="/" /> : <Login />} />
+        <Route path="/register" element={user ? <Navigate to="/" /> : <Register />} />
       </Routes>
     </Router>
   );
