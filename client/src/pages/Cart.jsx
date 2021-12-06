@@ -11,9 +11,7 @@ import { userRequest } from '../requestMethods';
 import { useNavigate } from 'react-router';
 // const KEY = process.env.REACT_APP_STRIPE_KEY;
 
-const Container = styled.div`
-
-`;
+const Container = styled.div``;
 
 const Wrapper = styled.div`
     padding: 20px;
