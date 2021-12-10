@@ -1,4 +1,7 @@
 # Ecommerce-Mern-
+### All thanks to this wonderful channel:
+https://www.youtube.com/watch?v=y66RgYMAgSo&list=PLj-4DlPRT48mxPG8TAXOH4qqQ1ijuERO4&index=4&ab_channel=LamaDev
+
 ## Admin page
 ![2021-12-10](https://user-images.githubusercontent.com/50957556/145547893-556b05cd-5c04-4a80-bf23-11e11fd9600b.png)
 
